@@ -1,0 +1,8 @@
+// .babelrc
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "modules": false // 设置为 false，让 Rollup 处理模块转换
+    }]
+  ]
+}
